@@ -1,18 +1,17 @@
 .coin_profile {
   display: grid;
   grid-gap: 10px;
+  padding: 7.5px;
 }
 
 .profile {
   grid-area: 1 / 1;
-  padding: 7.5px;
   border: 2.5px solid black;
-  display: grid
+  display: grid;
 }
 
 .secondary_part {
   grid-area: 1 / 2;
-  padding: 7.5px;
   border: 2.5px solid black;
 }
 

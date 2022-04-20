@@ -7,6 +7,8 @@
 .item {
   border: 1px solid black;
   padding: 5px 5px;
+  width: 17em;
+  height: 8em;
 }
 
 .item_1 {
