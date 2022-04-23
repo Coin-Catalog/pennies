@@ -13,4 +13,4 @@ jobs:
       - uses: actions/add-to-project@main
         with:
           project-url: https://github.com/orgs/<orgName>/projects/<projectNumber>
-          github-token: ${{ secrets.Projects }}
+          github-token: ${{ secrets.PROJECT_TOKEN }}
