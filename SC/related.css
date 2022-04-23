@@ -1,14 +1,14 @@
 .related {
   display: grid;
   grid-gap: 5px;
-  align-items: center;
+  gap: 5px;
+  --Related-size: calc(24% - 20px)
+  grid-template-columns: repeat(4, var(--Related-size));
 }
 
 .item {
   border: 1px solid black;
-  padding: 5px 5px;
-  width: 17em;
-  height: 8em;
+  padding: 5px;
 }
 
 .item_1 {
