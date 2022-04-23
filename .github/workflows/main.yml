@@ -12,5 +12,5 @@ jobs:
     steps:
       - uses: actions/add-to-project@main
         with:
-          project-url: https://github.com/orgs/Coin-Catalog/projects/1
+          project-url: https://github.com/orgs/Coin-Catalog/projects
           github-token: ${{ secrets.PROJECT_TOKEN }}
