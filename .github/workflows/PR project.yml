@@ -1,9 +1,9 @@
-name: Add bugs to bugs project
+name: Add PRs to project
 
 on:
-  issues:
+  pull_request:
     types:
-      - opened
+      - labeled
 
 jobs:
   add-to-project:
