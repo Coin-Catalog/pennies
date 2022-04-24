@@ -1,4 +1,4 @@
-name: Add needs-review and size/XL pull requests to projects
+name: Add PRs to project
 
 on:
   pull_request:
